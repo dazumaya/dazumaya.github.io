@@ -24,11 +24,11 @@ title = "dazumaya profile"
 
 [params]
   author = "dazumaya"
-  email = "w.dazumaya@gmail.com"
+  email = ""
   description = "Profile Page"
   bio = "Hi, I'm dazumaya.  \nI'm a web programmer in Tokyo."
   avatar = "img/avatar.jpg"
-  # favicon = "img/favicon.ico"
+  favicon = ""
   error404 = "There is no such page."
 
   [params.contact]

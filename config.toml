@@ -1,0 +1,38 @@
+baseURL = "https://dazumaya.github.io/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "ja"
+language = "ja"
+theme = "vncnt-hugo"
+title = "dazumaya profile"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "dazumaya"
+  email = "w.dazumaya@gmail.com"
+  description = "Profile Page"
+  bio = "Hi, I'm dazumaya.  \nI'm a web programmer in Tokyo."
+  avatar = "img/avatar.jpg"
+  # favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/dazumaya"
+    # instagram = ""
+    twitter = "https://twitter.com/dazumaya"
+    # ello = ""
